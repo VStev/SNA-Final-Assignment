@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>遊戲清單</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        table {
+            width: 100%;
+            max-width: 750px;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f1f1f1;
+            cursor: pointer;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .game-image {
+            width: 300px;
+        }
+
+        .game-link {
+            color: #007bff;
+            text-decoration: none;
+            cursor: pointer;
+            display: inline-block;
+        }
+
+        .tags-cell {
+            font-style: italic;
+            font-size: 15px;
+            color: #666;
+        }
+
+        .no-sort {
+            cursor: default;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>推薦清單(Recommended List)/你擁有以下遊戲而推薦(Your Own Game List)</h1>
+
+    <table style="float: left">
+        <thead>
+            <tr>
+                <th class="no-sort">圖片(GameImage)</th>
+                <th class="no-sort">遊戲名稱(GameName)</th>
+                <th class="no-sort">遊戲類型(Genre)</th>
+                <th class="no-sort">開發者(Peveloper)</th>
+                <th class="no-sort">發行商(Publisher)</th>
+                <th class="no-sort">價格(Price)</th>
+                <th class="no-sort">連結(link)</th>
+            </tr>
+        </thead>
+        <tbody id="gameList"></tbody>
+    </table>
+    <table  style="float: left">
+        <thead>
+            <tr>
+                <th class="no-sort">圖片(GameImage)</th>
+                <th class="no-sort">遊戲名稱(GameName)</th>
+                <th class="no-sort">遊戲類型(Genre)</th>
+                <th class="no-sort">開發者(Peveloper)</th>
+                <th class="no-sort">發行商(Publisher)</th>
+                <th class="no-sort">價格(Price)</th>
+                <th class="no-sort">連結(link)</th>
+            </tr>
+        </thead>
+        <tbody id="ownList"></tbody>
+
+    </table>
+
+
+
+
+
+    <script>
+        fetch('games.json')
+            .then(response => response.json())
+            .then(data => {
+                const gameListElement = document.getElementById('gameList');
+
+                data.forEach(game => {
+                    const gameRow = document.createElement('tr');
+
+                    const imageCell = document.createElement('td');
+                    const imageElement = document.createElement('img');
+                    imageElement.src = game.image;
+                    imageElement.className = 'game-image';
+                    imageCell.appendChild(imageElement);
+                    gameRow.appendChild(imageCell);
+
+                    const nameCell = document.createElement('td');
+                    nameCell.textContent = game.gameName;
+                    gameRow.appendChild(nameCell);
+
+                    const genreCell = document.createElement('td');
+                    genreCell.textContent = game.genre.replace(/_/g, ', ');
+                    gameRow.appendChild(genreCell);
+
+                    const developerCell = document.createElement('td');
+                    developerCell.textContent = game.developer;
+                    gameRow.appendChild(developerCell);
+
+                    const publisherCell = document.createElement('td');
+                    publisherCell.textContent = game.publisher;
+                    gameRow.appendChild(publisherCell);
+
+                    const priceCell = document.createElement('td');
+                    priceCell.textContent = game.parent.price || 'N/A';
+                    gameRow.appendChild(priceCell);
+
+                    const linkCell = document.createElement('td');
+                    const linkElement = document.createElement('a');
+                    linkElement.href = `https://store.steampowered.com/app/${game.id}`;
+                    linkElement.target = '_blank';
+                    linkElement.innerHTML = '🛒';
+                    linkElement.className = 'game-link';
+                    linkCell.appendChild(linkElement);
+                    gameRow.appendChild(linkCell);
+
+                    gameListElement.appendChild(gameRow);
+
+                    const infoRow = document.createElement('tr');
+                    const infoCell = document.createElement('td');
+                    infoCell.colSpan = '7';
+                    infoCell.textContent = '遊戲標籤(GameTag)';
+                    infoRow.appendChild(infoCell);
+                    gameListElement.appendChild(infoRow);
+
+                    const tagsRow = document.createElement('tr');
+                    const tagsCell = document.createElement('td');
+                    tagsCell.colSpan = '7';
+                    tagsCell.className = 'tags-cell';
+                    tagsCell.textContent = game.tags.replace(/,/g, ', ');
+                    tagsRow.appendChild(tagsCell);
+                    gameListElement.appendChild(tagsRow);
+
+
+
+
+                });
+
+
+            });
+
+        fetch('games.json')
+            .then(response => response.json())
+            .then(data => {
+                const gameListElement = document.getElementById('ownList');
+
+                data.forEach(game => {
+                    const gameRow = document.createElement('tr');
+
+                    const imageCell = document.createElement('td');
+                    const imageElement = document.createElement('img');
+                    imageElement.src = game.parent.image;
+                    imageElement.className = 'game-image';
+                    imageCell.appendChild(imageElement);
+                    gameRow.appendChild(imageCell);
+
+                    const nameCell = document.createElement('td');
+                    nameCell.textContent = game.parent.gameName;
+                    gameRow.appendChild(nameCell);
+
+                    const genreCell = document.createElement('td');
+                    genreCell.textContent = game.parent.genre.replace(/_/g, ', ');
+                    gameRow.appendChild(genreCell);
+
+                    const developerCell = document.createElement('td');
+                    developerCell.textContent = game.parent.developer;
+                    gameRow.appendChild(developerCell);
+
+                    const publisherCell = document.createElement('td');
+                    publisherCell.textContent = game.parent.publisher;
+                    gameRow.appendChild(publisherCell);
+
+                    const priceCell = document.createElement('td');
+                    priceCell.textContent = game.parent.price || 'N/A';
+                    gameRow.appendChild(priceCell);
+
+                    const linkCell = document.createElement('td');
+                    const linkElement = document.createElement('a');
+                    linkElement.href = `https://store.steampowered.com/app/${game.parent.id}`;
+                    linkElement.target = '_blank';
+                    linkElement.innerHTML = '🛒';
+                    linkElement.className = 'game-link';
+                    linkCell.appendChild(linkElement);
+                    gameRow.appendChild(linkCell);
+
+                    gameListElement.appendChild(gameRow);
+
+                    const infoRow = document.createElement('tr');
+                    const infoCell = document.createElement('td');
+                    infoCell.colSpan = '7';
+                    infoCell.textContent = '遊戲標籤(GameTag)';
+                    infoRow.appendChild(infoCell);
+                    gameListElement.appendChild(infoRow);
+
+                    const tagsRow = document.createElement('tr');
+                    const tagsCell = document.createElement('td');
+                    tagsCell.colSpan = '7';
+                    tagsCell.className = 'tags-cell';
+                    tagsCell.textContent = game.parent.tags.replace(/,/g, ', ');
+                    tagsRow.appendChild(tagsCell);
+                    gameListElement.appendChild(tagsRow);
+
+                });
+            });
+
+    </script>
+</body>
+
+</html>

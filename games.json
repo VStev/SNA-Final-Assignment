@@ -1,0 +1,265 @@
+[
+  {
+    "isFree": false,
+    "releaseDate": {
+      "coming_soon": false,
+      "date": "24 Oct, 2014"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/318220/header.jpg?t=1661526713",
+    "gameName": "Enforcer: Police Crime Action",
+    "id": 318220,
+    "price": "NT$ 468",
+    "genre": "Action_Adventure_Simulation",
+    "developer": "Odin Game Studio",
+    "publisher": "Excalibur Publishing",
+    "parent": {
+      "isFree": false,
+      "releaseDate": {
+        "coming_soon": false,
+        "date": "13 Apr, 2015"
+      },
+      "image": "https://cdn.akamai.steamstatic.com/steam/apps/271590/header.jpg?t=1678296348",
+      "gameName": "Grand Theft Auto V",
+      "id": 271590,
+      "genre": "Action_Adventure",
+      "developer": "Rockstar North",
+      "publisher": "Rockstar Games",
+      "tags": "Open World,Action,Multiplayer,Crime,Automobile Sim,Third Person,First-Person,Shooter,Mature,Adventure,Singleplayer,Third-Person Shooter,Racing,Co-op,Atmospheric,Sandbox,Funny,Great Soundtrack,Comedy,Moddable"
+    },
+    "tags": "Simulation,Action,Open World,Crime,Adventure,Singleplayer,Indie,Third Person,Shooter,Sandbox,Multiplayer,Realistic,Driving,Third-Person Shooter,Funny"
+  },
+  {
+    "isFree": false,
+    "releaseDate": {
+      "coming_soon": false,
+      "date": "13 Feb, 2009"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/21780/header.jpg?t=1447351411",
+    "gameName": "Driver\u00ae Parallel Lines",
+    "id": 21780,
+    "price": "NT$ 285",
+    "genre": "Racing",
+    "developer": "Ubisoft Reflections",
+    "publisher": "Ubisoft",
+    "parent": {
+      "isFree": false,
+      "releaseDate": {
+        "coming_soon": false,
+        "date": "13 Apr, 2015"
+      },
+      "image": "https://cdn.akamai.steamstatic.com/steam/apps/271590/header.jpg?t=1678296348",
+      "gameName": "Grand Theft Auto V",
+      "id": 271590,
+      "genre": "Action_Adventure",
+      "developer": "Rockstar North",
+      "publisher": "Rockstar Games",
+      "tags": "Open World,Action,Multiplayer,Crime,Automobile Sim,Third Person,First-Person,Shooter,Mature,Adventure,Singleplayer,Third-Person Shooter,Racing,Co-op,Atmospheric,Sandbox,Funny,Great Soundtrack,Comedy,Moddable"
+    },
+    "tags": "Racing,Action,Open World,Automobile Sim,Driving,Singleplayer,Third-Person Shooter,Classic,Crime,Third Person,Great Soundtrack,Shooter"
+  },
+  {
+    "isFree": false,
+    "releaseDate": {
+      "coming_soon": false,
+      "date": "22 Mar, 2011"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/50130/header.jpg?t=1589909831",
+    "gameName": "Mafia II (Classic)",
+    "id": 50130,
+    "genre": "Action",
+    "developer": "2K Czech",
+    "publisher": "2K",
+    "parent": {
+      "isFree": false,
+      "releaseDate": {
+        "coming_soon": false,
+        "date": "13 Apr, 2015"
+      },
+      "image": "https://cdn.akamai.steamstatic.com/steam/apps/271590/header.jpg?t=1678296348",
+      "gameName": "Grand Theft Auto V",
+      "id": 271590,
+      "genre": "Action_Adventure",
+      "developer": "Rockstar North",
+      "publisher": "Rockstar Games",
+      "tags": "Open World,Action,Multiplayer,Crime,Automobile Sim,Third Person,First-Person,Shooter,Mature,Adventure,Singleplayer,Third-Person Shooter,Racing,Co-op,Atmospheric,Sandbox,Funny,Great Soundtrack,Comedy,Moddable"
+    },
+    "tags": "Action,Open World,Crime,Story Rich,Atmospheric,Singleplayer,Third Person,Third-Person Shooter,Automobile Sim,Shooter,Great Soundtrack,Adventure,Driving,America,Classic,Music,Nudity,Multiplayer,Sandbox,3D Vision"
+  },
+  {
+    "isFree": false,
+    "releaseDate": {
+      "coming_soon": false,
+      "date": "6 Dec, 2016"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/342180/header.jpg?t=1685526920",
+    "gameName": "Arizona Sunshine\u00ae",
+    "id": 342180,
+    "price": "NT$ 438",
+    "genre": "Action_Adventure_Indie",
+    "developer": "Vertigo Games",
+    "publisher": "Vertigo Games",
+    "parent": {
+      "isFree": false,
+      "releaseDate": {
+        "coming_soon": false,
+        "date": "13 Dec, 2018"
+      },
+      "image": "https://cdn.akamai.steamstatic.com/steam/apps/221100/header.jpg?t=1674143992",
+      "gameName": "DayZ",
+      "id": 221100,
+      "price": "NT$ 1,299",
+      "genre": "Action_Adventure_Massively Multiplayer",
+      "developer": "Bohemia Interactive",
+      "publisher": "Bohemia Interactive",
+      "tags": "Survival,Zombies,Multiplayer,Open World,Action,PvP,Shooter,Massively Multiplayer,Horror,Post-apocalyptic,Simulation,FPS,Early Access,First-Person,Survival Horror,Sandbox,Adventure,Co-op,Atmospheric,Indie"
+    },
+    "tags": "Action,VR,Zombies,Multiplayer,Horror,Survival,Co-op Campaign,Online Co-Op,Adventure,Gore,FPS,Shooter,First-Person,Survival Horror,Indie,Co-op,Open World,Violent,Singleplayer,Post-apocalyptic"
+  },
+  {
+    "isFree": false,
+    "releaseDate": {
+      "coming_soon": false,
+      "date": "20 Jun, 2021"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/722180/header.jpg?t=1668208940",
+    "gameName": "SURV1V3",
+    "id": 722180,
+    "price": "NT$ 378",
+    "genre": "Action_Adventure_Indie_Simulation",
+    "developer": "Candymakers",
+    "publisher": "Candymakers",
+    "parent": {
+      "isFree": false,
+      "releaseDate": {
+        "coming_soon": false,
+        "date": "13 Dec, 2018"
+      },
+      "image": "https://cdn.akamai.steamstatic.com/steam/apps/221100/header.jpg?t=1674143992",
+      "gameName": "DayZ",
+      "id": 221100,
+      "price": "NT$ 1,299",
+      "genre": "Action_Adventure_Massively Multiplayer",
+      "developer": "Bohemia Interactive",
+      "publisher": "Bohemia Interactive",
+      "tags": "Survival,Zombies,Multiplayer,Open World,Action,PvP,Shooter,Massively Multiplayer,Horror,Post-apocalyptic,Simulation,FPS,Early Access,First-Person,Survival Horror,Sandbox,Adventure,Co-op,Atmospheric,Indie"
+    },
+    "tags": "Zombies,VR,Action,Adventure,Simulation,Indie,Co-op,Violent,Gore,Horror,Online Co-Op,Multiplayer,Survival,Co-op Campaign,FPS,Open World"
+  },
+  {
+    "isFree": false,
+    "releaseDate": {
+      "coming_soon": false,
+      "date": "3 Jun, 2022"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1003150/header.jpg?t=1654260825",
+    "gameName": "TRANSIT",
+    "id": 1003150,
+    "price": "NT$ 27",
+    "genre": "Action_Indie_Simulation",
+    "developer": "SPLR Studio",
+    "publisher": "SPLR Studio",
+    "parent": {
+      "isFree": false,
+      "releaseDate": {
+        "coming_soon": false,
+        "date": "13 Dec, 2018"
+      },
+      "image": "https://cdn.akamai.steamstatic.com/steam/apps/221100/header.jpg?t=1674143992",
+      "gameName": "DayZ",
+      "id": 221100,
+      "price": "NT$ 1,299",
+      "genre": "Action_Adventure_Massively Multiplayer",
+      "developer": "Bohemia Interactive",
+      "publisher": "Bohemia Interactive",
+      "tags": "Survival,Zombies,Multiplayer,Open World,Action,PvP,Shooter,Massively Multiplayer,Horror,Post-apocalyptic,Simulation,FPS,Early Access,First-Person,Survival Horror,Sandbox,Adventure,Co-op,Atmospheric,Indie"
+    },
+    "tags": "Action,Indie,Simulation,Survival,Post-apocalyptic"
+  },
+  {
+    "isFree": false,
+    "releaseDate": {
+      "coming_soon": false,
+      "date": "12 Apr, 2022"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1912800/header.jpg?t=1649780134",
+    "gameName": "Sweet Transit Playtest",
+    "id": 1912800,
+    "publisher": "",
+    "parent": {
+      "isFree": false,
+      "releaseDate": {
+        "coming_soon": false,
+        "date": "30 Oct, 2018"
+      },
+      "image": "https://cdn.akamai.steamstatic.com/steam/apps/868360/header.jpg?t=1667226571",
+      "gameName": "Project Hospital",
+      "id": 868360,
+      "price": "NT$ 408",
+      "genre": "Indie_Simulation_Strategy",
+      "developer": "Oxymoron Games",
+      "publisher": "Oxymoron Games",
+      "tags": "Simulation,Management,Building,Medical Sim,Strategy,Economy,Indie,Sandbox,Resource Management,City Builder,Singleplayer,Realistic,Base Building,2D,Isometric,Education,Real-Time with Pause,Moddable,Replay Value,Great Soundtrack"
+    },
+    "tags": "Early Access,Simulation,Trains,City Builder,Transportation,Strategy,Management,Economy,Building,Resource Management,Procedural Generation,Moddable,Level Editor,Sandbox,Realistic,Alternate History,Base Building,Singleplayer,Isometric,2D"
+  },
+  {
+    "isFree": false,
+    "releaseDate": {
+      "coming_soon": false,
+      "date": "5 Feb, 2015"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/313010/header.jpg?t=1650901879",
+    "gameName": "Cities XXL",
+    "id": 313010,
+    "price": "NT$ 290",
+    "genre": "Simulation",
+    "developer": "Focus Entertainment",
+    "publisher": "Focus Entertainment",
+    "parent": {
+      "isFree": false,
+      "releaseDate": {
+        "coming_soon": false,
+        "date": "30 Oct, 2018"
+      },
+      "image": "https://cdn.akamai.steamstatic.com/steam/apps/868360/header.jpg?t=1667226571",
+      "gameName": "Project Hospital",
+      "id": 868360,
+      "price": "NT$ 408",
+      "genre": "Indie_Simulation_Strategy",
+      "developer": "Oxymoron Games",
+      "publisher": "Oxymoron Games",
+      "tags": "Simulation,Management,Building,Medical Sim,Strategy,Economy,Indie,Sandbox,Resource Management,City Builder,Singleplayer,Realistic,Base Building,2D,Isometric,Education,Real-Time with Pause,Moddable,Replay Value,Great Soundtrack"
+    },
+    "tags": "City Builder,Simulation,Building,Economy,Strategy,Management,Sandbox,Realistic,Moddable,Singleplayer,Multiplayer,Atmospheric,Resource Management"
+  },
+  {
+    "isFree": false,
+    "releaseDate": {
+      "coming_soon": false,
+      "date": "11 Dec, 2019"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1066780/header.jpg?t=1679083602",
+    "gameName": "Transport Fever 2",
+    "id": 1066780,
+    "price": "NT$ 599",
+    "genre": "Simulation_Strategy",
+    "developer": "Urban Games",
+    "publisher": "Good Shepherd Entertainment",
+    "parent": {
+      "isFree": false,
+      "releaseDate": {
+        "coming_soon": false,
+        "date": "30 Oct, 2018"
+      },
+      "image": "https://cdn.akamai.steamstatic.com/steam/apps/868360/header.jpg?t=1667226571",
+      "gameName": "Project Hospital",
+      "id": 868360,
+      "price": "NT$ 408",
+      "genre": "Indie_Simulation_Strategy",
+      "developer": "Oxymoron Games",
+      "publisher": "Oxymoron Games",
+      "tags": "Simulation,Management,Building,Medical Sim,Strategy,Economy,Indie,Sandbox,Resource Management,City Builder,Singleplayer,Realistic,Base Building,2D,Isometric,Education,Real-Time with Pause,Moddable,Replay Value,Great Soundtrack"
+    },
+    "tags": "Simulation,Strategy,Management,Transportation,City Builder,Trains,Economy,Sandbox,Building,Singleplayer,Realistic,Moddable,Open World,Flight,Resource Management,Naval,Games Workshop,Indie,Casual,Co-op"
+  }
+]
